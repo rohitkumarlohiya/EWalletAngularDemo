@@ -1,0 +1,53 @@
+<!-- <div id="login" class="row">
+  <div class="large-6 large-offset-3">
+    <form ng-submit="login()">
+      <fieldset class="radius">
+        <div class="row">
+          <div class="large-6 columns">
+            <input type="text" name="username" placeholder="username" ng-model="credentials.username" required/>
+          </div>
+            <div class="large-6 columns">
+            <input type="password" name="password" placeholder="password" ng-model="credentials.password" required/>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="large-12 columns">
+            <button type="submit" class="button large expand radius">Log In</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+ -->
+
+
+
+<div class="container">
+
+	<form class="form-signin" role="form" data-ng-submit="login()">
+		<h2 class="form-signin-heading" style="color: white;">Please sign in</h2>
+		<img src="images/login-logo.png" width="268" height="44" alt="" />		
+		
+		<label for="inputEmail" class="sr-only">Email address</label>
+		
+		<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus data-ng-model="credentials.username"> 
+		 
+		<label for="inputPassword" class="sr-only">Password</label>
+		
+		<input type="password" id="inputPassword" class="form-control" placeholder="Password" required="" data-ng-model="credentials.password">
+		
+		<div class="checkbox" style="color: white;">
+		<label> <input type="checkbox" value="remember-me">
+			Remember me
+		</label>
+		</div>
+		
+		<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+	</form>
+</div>
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+

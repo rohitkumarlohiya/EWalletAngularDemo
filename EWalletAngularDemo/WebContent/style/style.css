@@ -1,0 +1,101 @@
+body { font-family:Arial; font-size: 12px}
+body { padding-bottom: 70px; background:#323131;}
+a{ cursor:pointer!important; }
+img{ margin:10px 5px;}
+label{ font-weight:normal!important;}
+
+.container-height{
+  min-height:420px!important;
+}
+
+.container {
+  padding: 0px 15px;
+  font-family:Arial, Helvetica, sans-serif;
+  
+  background:#FFFFFF;
+  
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+
+.navbar-inverse { background:#414042!important; border:none; font-family:Tahoma; font-size:14px; font-weight:bold;}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus { background:#ff3600}
+.navbar-right li{ float:left; display:block; margin:10px 5px; color:#ff3600;}
+.navbar-right li a{ color:#FFFFFF;}
+.navbar { border-radius:0!important}
+.navbar-collapse{ padding-left:0px;}
+.navbar-inverse .navbar-nav>li>a{ color:#FFFFFF;}
+.top-navbar{ background:#323131!important;}
+h1{ background:url(../images/logo.gif) no-repeat; width:157px; height:46px; margin:20px 0}
+h2{ font-size:20px; font-weight:bold; color:#323131; margin:20px 0; border-bottom:1px solid #c1c1c1; padding:0 0 5px 5px;}
+.well{ background:none!important; border-radius:0; border-color:#c1c1c1!important; overflow:hidden; padding:10px;}
+.well span.number{ color:#0a8a13; font-size:40px; margin:0!important; padding:0!important; display:block; line-height:40px; margin-top:-10px; font-weight:bold}
+.well-bg{ background:#dedede!important; padding:12px;}
+.fa-rupee{ font-size:60px; font-weight:bold}
+label.heading{ font-size:14px; font-weight:bold}
+.btn-primary{ background:#ff3600!important; color:#FFFFFF!important; border-color:#d22e02!important; border-radius:0!important; font-weight:bold;}
+.btn-default{ background:#939392!important; color:#FFFFFF!important; border-color:#868685!important; border-radius:0!important; margin-left:10px; font-weight:bold}
+a.view{ color:#0060ff; font-size:14px; text-decoration:underline; line-height:35px;}
+.panel-heading{ border-radius:0!important; background:#706e6e!important; color:#FFFFFF!important}
+.nav-tabs{ border-top:4px solid #706e6e; border-bottom:0!important; background:#dedede; font-size:14px; font-weight:bold; border-right:1px solid #706e6e;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{ background:#706e6e!important; color:#fff!important; border-radius:0!important; border-color:#706e6e!important}
+.nav-tabs a:hover{ background:#706e6e!important; color:#fff!important; border-radius:0!important; border-color:#706e6e!important}
+.panel-title{ font-weight:bold;}
+.tab-content>.tab-pane{ padding:35px 20px; margin-bottom:20px; border:1px solid #706e6e; border-top:none; }
+.nav-tabs>li>a{ color:#706e6e!important}
+.form-control{ border-radius:0!important;  background:#fafafa!important; border-color:#c3c4c5!important; margin-bottom:25px;}
+.panel{ border-radius:0!important; border:1px solid #706e6e}
+.panel-body { padding:0px 0 0 0!important}
+.panel-body ul{padding:0!important}
+.panel-body ul li{ padding:15px!important; margin:5px 0px 5px 0; border-bottom:1px solid #706e6e; list-style:none; font-size:13px;}
+.panel-body ul li.last{ border-bottom:0!important}
+.no-gutter-left{ padding-left:0!important}
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline{ color:#f22222!important}
+.has-error .form-control{ border-color:#f22222!important}
+.control-label{ text-align:left!important; margin-bottom:5px!important;}
+.form-group{ margin-bottom:0px}
+#card .form-group{ margin-bottom:20px!important}
+.form-control{ margin-bottom:10px!important}
+.margin-in-element{ margin:20px 0!important}
+.no-gutter-right{padding-right:0!important}
+.top-navbar ul{ margin-bottom:0px;}
+.form-signin {
+  width: 430px;
+  padding: 15px;
+  margin: 0 auto;
+  background:#323131;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+

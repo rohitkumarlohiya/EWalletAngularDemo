@@ -1,0 +1,184 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="favicon.ico">
+<title>E-Wallet</title>
+Bootstrap core CSS
+<link href="style/bootstrap.min.css" rel="stylesheet">
+Custom styles for this template
+<link href="style/style.css" rel="stylesheet">
+<link href="style/reset.css" rel="stylesheet">
+<link href="style/font-awesome.min.css" rel="stylesheet">
+Just for debugging purposes. Don't actually copy this line!
+[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]
+HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]
+</head>
+<body> -->
+<div class="container">
+  <div class="row">
+    <div class="container top-navbar">
+      <ul class="navbar-right">
+        <li><b> Welcome: </b></li>
+        <li> <a href="#" >{{loggedInUser}}</a></li>
+        <li><a href="#">|</a></li>
+        <li> <a href="#/login" >Sign Out</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container">
+	
+      <h1></h1>
+    
+	</div>
+  </div>
+  <div class="row">
+    <nav class="navbar navbar-inverse" role="navigation"> 
+      <!-- Brand and toggle get grouped for better mobile display --> 
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Profile</a></li>
+          <li class="active"><a href="#">Transactions</a></li>
+          <li ><a href="#">Reports</a></li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+      <!-- navbar end --> 
+    </nav>
+  </div>
+  <div class="row">
+    <div class="container">
+    
+      <h2>Add Cash to Wallet</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container">
+      <div class="col-sm-9 no-gutter-left">
+        <div class="well">
+          <div class="col-sm-12">
+            <label class="heading">Add Cash to Wallet</label>
+          </div>
+          <div class="col-sm-4">
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Amount">
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <button type="button" class="btn btn-primary">ADD MONEY</button>
+          </div>
+          <div class="col-sm-2"><a href="#" class="view">View History</a></div>
+        </div>
+      </div>
+      <div class="col-sm-3 no-gutter-right">
+        <div class="well well-bg">
+          <div class="pull-left"><span class="fa fa-rupee"></span> </div>
+          <div class="pull-left" style="margin-top:-3px;"><span class="number">100</span> <span class="balance">Your Balance</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container">
+      <div class="col-sm-9 no-gutter-left">
+        <div role="tabpanel">
+          <ul id="myTab" class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#debit-card" id="debit-card" role="tab" data-toggle="tab" aria-controls="debit-card" aria-expanded="true">Debit Card</a></li>
+            <li role="presentation"><a href="#credit-card" role="tab" id="credit-card" data-toggle="tab" aria-controls="credit-card">Credit Card</a></li>
+            <li role="presentation"><a href="#netbanking" role="tab" id="netbanking" data-toggle="tab" aria-controls="profile">Net Banking</a></li>
+            <li role="presentation"><a href="#atm" role="tab" id="atm" data-toggle="tab" aria-controls="profile">ATM</a></li>
+            <li role="presentation"><a href="#imps" role="tab" id="imps" data-toggle="tab" aria-controls="imps">IMPS</a></li>
+          </ul>
+          <div id="myTabContent" class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="debit-card" aria-labelledby="debit-card-tab">
+            <form role="form" id="card">
+              <div class="row">
+                <div class="col-sm-12">
+                  <label>ENTER YOUR DEBIT CARD NUMBER</label>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" >
+                  </div>
+                </div>
+                <div class="col-sm-6"><img src="images/card-type.png"></div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="col-sm-12 no-gutter-left">
+                    <label>EXPIRY DATE</label>
+                  </div>
+                  <div class="col-sm-6 no-gutter-left">
+                    <select class="form-control">
+                      <option>MM</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+                    <select class="form-control">
+                      <option>YY</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-5">
+                  <div class="col-sm-12">
+                    <label>CCV</label>
+                  </div>
+                  <div class="col-sm-5">
+                    <input type="email" class="form-control" id="exampleInputEmail1" >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 no-gutter-left"><img src="images/secure.jpg" width="248" height="38" alt="" /></div>
+              <div class="row">
+                <div class="col-sm-4 margin-in-element">
+                  <button type="button" class="btn btn-primary">PROCESS</button>
+                  <button type="button" class="btn btn-default">CANCEL</button>
+                </div>
+              </div></form>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="credit-card" aria-labelledby="credit-card-tab">
+              <p>Credit card</p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="netbanking" aria-labelledby="dropdown2-tab"> Net banking </div>
+            <div role="tabpanel" class="tab-pane fade" id="atm" aria-labelledby="dropdown2-tab">ATM</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 no-gutter-right">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Transcation History</h3>
+          </div>
+          <div class="panel-body">
+            <ul>
+              <li>Spend 100 Rupees on mobile recharge</li>
+              <li>Spend 100 Rupees on mobile recharge</li>
+              <li>Spend 100 Rupees on mobile recharge</li>
+              <li>Spend 100 Rupees on mobile recharge</li>
+              <li class="last">Spend 100 Rupees on mobile recharge</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Bootstrap core JavaScript
+    ================================================== --> 
+<!-- <script type="text/javascript" src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/common.js"></script> 
+Placed at the end of the document so the pages load faster
+</body>
+</html> -->
